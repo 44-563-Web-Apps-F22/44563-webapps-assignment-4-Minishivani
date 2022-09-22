@@ -1,0 +1,111 @@
+.speech{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    color:black;
+    text-indent: 25px;
+}
+
+.song{
+    font-family: "Monace", Courier, monospace, serif;
+    font-size: 16px;
+    color:black;
+    text-indent: 50px;
+}
+
+.direction{
+    font-family: "Copperplate","Papyrus",fantasy;
+    font-size: 16px;
+    color:black;
+    background-color:#FBF2CF;
+}
+
+.direction:hover{
+    background: color #FFF5E4;
+    color:#A7D2CB; 
+}
+
+.name{
+    font-family: "Lucida Grande","Lucida",cursive;
+    font-size: 16px;
+    color:black;
+}
+
+/*Characters */
+.gir, .elsa{
+    color:#182747;
+}
+
+.lisa, .mab{
+    color:#562808;
+}
+
+.fre{
+    color: #2b5a32
+}
+
+.gen{
+    color: #990000
+}
+
+/*Groups*/
+
+.chorus{
+    color:#8270fa;
+    background-color:#C6EBC5;
+    text-align: justify;
+}
+table{
+    border-collapse:collapse ;
+    width: 100%;
+}
+
+th, td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid rgb(89, 16, 85);
+}
+
+tbody>tr:nth-child(even){
+    background-color: #FFF5E4;
+}
+
+thead{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+a{
+    float: right;
+}
+
+.name:hover{
+    text-shadow: 1px 1px 2px #C6EBC5, 0 0 25px #A1C298, 0 0 5px darkblue,0 -1px #963213
+}
+
+ul{
+
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#333;
+    }
+    
+    li{
+    float:left;
+    }
+    li a {
+    display:block;
+    color:white;
+    text-align:center;
+    padding:12px 19px;
+    text-decoration:none;
+    }
+
+  li a:hover:not(.active){
+    background-color: rgb(118, 110, 110);
+  }
+
+  .active{
+    background-color: cornflowerblue;
+  }
